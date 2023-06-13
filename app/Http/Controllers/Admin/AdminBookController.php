@@ -40,29 +40,7 @@ class AdminBookController extends Controller
         return $output;
     }
 
-    // public $months = [
-    //     'Januari'   => '01',
-    //     'Februari'  => '02',
-    //     'Maret'     => '03',
-    //     'April'     => '04',
-    //     'Mei'       => '05',
-    //     'Juni'      => '06',
-    //     'Juli'      => '07',
-    //     'Agustus'   => '08',
-    //     'September' => '09',
-    //     'Oktober'   => '10',
-    //     'November'  => '11',
-    //     'Desember'  => '12',
-    // ];
-    // public function ReadableToProcessable($date)
-    // {
-    //     [$day, $month, $year] = explode(' ', $date);
-
-    //     $month  = $this->months[$month];
-    //     $day    = sprintf("%02d", $day);
-
-    //     return "{$year}-{$month}-{$day}";
-    // }
+    
     /**
      * Store a newly created resource in storage.
      *
