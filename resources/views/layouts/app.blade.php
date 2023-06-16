@@ -1,17 +1,10 @@
-@include('includes.general.head')
+@include('includes.admin.head')
 @stack('prepend-style')
 <body>
 
-  <!-- Header Area Start -->
- {{-- @include('includes.general.navbar') --}}
-
  @yield('content')
 
-  <!-- Footer Start -->
-  {{-- @include('includes.general.footer') --}}
-  <!-- ##### Footer End ##### -->
-
-  @include('includes.general.script')
+  @include('includes.admin.script')
   @stack('addon-script')
 </body>
 

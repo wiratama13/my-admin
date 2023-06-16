@@ -7,7 +7,7 @@
             <i class="fas fa-building"></i>
             <i class="fa-sharp fa-solid fa-building-user"></i>
         </div>
-        <div class="sidebar-brand-text mx-1">Liraria</div>
+        <div class="sidebar-brand-text mx-1">Lirarian</div>
 
     </a>
 
