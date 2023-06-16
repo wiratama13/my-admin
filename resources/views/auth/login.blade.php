@@ -48,16 +48,10 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        {{-- <div class="form-group">
-                                            @if (Route::has('password.request'))
-                                                <a class="nav-link text-primary" href="{{ route('password.request') }}">
-                                                    {{ __('Forgot Your Password?') }}
-                                                </a>
-                                            @endif
-                                        </div> --}}
+                                       
                                     </div>
                                     <div class="text-center d-grid gap-2">
-                                        <button type="submit" class="btn btn-primary">{{ __('Login') }}</button>
+                                        <button type="submit" class="btn btn-primary">{{ __('Login') }}</button>                                  
                                     </div>
                                 </form>
                                 <div class="new-account mt-3">

@@ -59,7 +59,7 @@ Route::prefix('admin')->group(function () {
 
 
 /**
- *
+ * Agar bisa upload file
  */
 
 Route::group(['prefix' => 'filemanager'], function () {
